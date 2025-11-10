@@ -45,11 +45,15 @@ Both models run **independently**, then **combine confidence scores** to give a 
 Pneumonia Detection using Symptoms + Chest X-ray/ <br>
 ├── pneumonia_Image.ipynb         # Classification image <br>
 ├── pneumonia_tabuluer.ipynb      # Classification tabuluer data <br>
-├── models/ <br>
-│   ├── pnumonia_image_model.keras   # VGG16 model (Keras) <br>
-│   └── pneumonia_tabuluer_model.pkl # SVC + pipeline (joblib) <br>
 ├── data/ <br>
-│   └── sample_xray.jpg      # Test image <br>
+│   └── sample_xray.jpg-------------# Test image <br>
 ├── reports/ <br>
-│   └── sample_report.pdf    # Example output <br>
+│   └── Pneumonia_Report.pdf------------# Example output <br>
 └── README.md <br>
+
+---
+
+## Project Structure
+
+[Tabuluer Dataset](https://www.kaggle.com/datasets/essienmary/pneumonia-dataset) <br>
+[Image Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
